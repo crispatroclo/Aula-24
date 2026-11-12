@@ -12,7 +12,6 @@ plt.barh(xpoints, ypoints)
 
 bars = plt.barh(xpoints, ypoints)
 
-plt.bar_label(bars, fmt='%.2f', padding=3)
 
 plt.title('grafico')
 plt.xlabel('plano x')
